@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Version>0.1.0</Version>
+        <Title>AsyncToolbox</Title>
+        <Authors>Pygmalions</Authors>
+        <Description>This library provides utilities for asynchronous programming.</Description>
+        <Copyright>MIT License.</Copyright>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/Pygmalions/AsyncToolbox</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/Pygmalions/AsyncToolbox</RepositoryUrl>
+        <RepositoryType>Git</RepositoryType>
+        <PackageTags>Async</PackageTags>
+        <PackageIcon>Logo.png</PackageIcon>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Update="README.md" Pack="true" PackagePath="\" />
+        <None Update="Logo.png" Pack="true" PackagePath="\" />
+    </ItemGroup>
+</Project>

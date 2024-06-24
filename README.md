@@ -1,2 +1,3 @@
 # AsyncToolbox
-A tool library for C# asynchronous programming.
+
+This library provides utilities for asynchronous programming.
